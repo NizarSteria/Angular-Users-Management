@@ -1,4 +1,4 @@
-Angular2-cli-gestion-utilisateur
+Angular2 Gestion des utilisateurs
 ========================
 # Consignes
 
@@ -12,11 +12,7 @@ Migration d'une application de gestion des utilisateurs (d'angular 1 à angular 
 * Using Custom Components
 * Using Custom Directives
 * Using Custom Pipes
-* Defining Properties and Using Events in Components/Directives
-* Using the Http object for Ajax calls along with Rx observables
-* Working with Utility and Service classes (such as for sorting and Ajax calls)
-* Using Angular databinding Syntax [], () and [()]
-* Using Angular forms functionality for capturing and validating data
+
 
 ## Running the Application
 
