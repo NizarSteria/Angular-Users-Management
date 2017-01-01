@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 
-
 @Component({
-  moduleId: module.id,
-  selector: 'my-app',
-  templateUrl: 'app.component.html'
+    selector: 'my-app',
+    templateUrl: 'app.component.html',
+    styleUrls: ['app.component.css']
 })
-export class AppComponent {
-
+export class PeopleAppComponent {
+    name = 'Angular 2';
 }
