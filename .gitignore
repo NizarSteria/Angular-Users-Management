@@ -1,6 +1,6 @@
-# NPM
-node_modules
-npm-debug.log
+# dependencies
+/node_modules
+/bower_components
 
 # Code Editor Settings
 .idea
@@ -9,3 +9,36 @@ npm-debug.log
 # Build Generated Files
 src/app/**/*.js
 src/app/**/*.js.map
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+
+
+# IDEs and editors
+/.idea
+/.vscode
+.project
+.classpath
+*.launch
+.settings/
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+.editorconfig
