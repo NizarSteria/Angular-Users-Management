@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { AboutComponent } from './about.component';
+import { HomeComponent } from './home.component';
 
 const routes: Routes = [
-  { path: '', component: AboutComponent }
+  { path: '', component: HomeComponent }
 ];
 
 @NgModule({
   imports: [ RouterModule.forChild(routes) ],
   exports: [ RouterModule ]
 })
-export class AboutRoutingModule {
-  static components = [ AboutComponent ];
+export class HomeRoutingModule {
+  static components = [ HomeComponent ];
 }
