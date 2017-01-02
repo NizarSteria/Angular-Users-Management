@@ -15,6 +15,10 @@ app.use('/node_modules', express.static(__dirname + '/node_modules'));
 //The src folder has our static resources (index.html, css, images)
 app.use(express.static(__dirname + '/src'));
 
+app.get('/api/users', (req, res) => {
+    res.json(users);
+});
+
 // redirect all others to the index (HTML5 history)
 app.all('/*', function(req, res) {
     res.sendFile(__dirname + '/src/index.html');

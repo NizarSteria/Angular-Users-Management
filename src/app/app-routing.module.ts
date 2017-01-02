@@ -3,8 +3,9 @@ import { RouterModule, Routes, PreloadAllModules, NoPreloading } from '@angular/
 
 const app_routes: Routes = [
     { path: '', pathMatch:'full', redirectTo: '/home' },
-    { path: 'about', loadChildren: 'app/about/about.module#AboutModule'},
     { path: 'home', loadChildren: 'app/home/home.module#HomeModule'},
+    { path: 'users', loadChildren: 'app/users/users.module#UsersModule'},
+    { path: 'about', loadChildren: 'app/about/about.module#AboutModule'},
     { path: '**', pathMatch:'full', redirectTo: '/home' } //catch any unfound routes and redirect to home page
 ];
 
